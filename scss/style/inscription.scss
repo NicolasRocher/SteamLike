@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Russo+One');
+
+$font_title: 'Russo One', sans-serif;
+$font_subtitle: 'Pacifico', cursive;
+$font_normal: 'Aaargh';
+
+$color_green: #2ecc71;
+$color_black: #333333;
+$color_white: #ecf0f1;
+$color_test: #d35400;
+
+
+#formulaire_inscription {
+  margin-top:25vh;
+  background:$color_black;
+  font-family: $font_normal;
+
+#off  button {
+    background: $color_green;
+    opacity:0.3;
+    color:white;
+    font-size:1.5em;
+    margin-left:29vh;
+    width:25vh;
+    height:9vh;
+    border:none;
+    margin-top:4vh;
+  }
+#on button {
+    background: $color_green;
+    color:$color_white;
+    font-size:1.5em;
+    margin-right:29vh;
+    width:25vh;
+    height:9vh;
+    border:none;
+    margin-top:4vh;
+  }
+
+  input{
+    color:$color_white;
+    background:$color_test;
+    margin:1vh;
+    font-size:0.5em;
+    width:40vh;
+    border:solid 1px $color_black;
+    padding:1vh;
+    font-family: $font_normal;
+
+  }
+  input:focus{
+    outline-color:$color_green;
+  }
+
+  form{
+    margin-bottom:5vh;
+  }
+  h2 {
+    color:$color_white;
+  }
+}

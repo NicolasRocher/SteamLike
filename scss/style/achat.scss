@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Russo+One');
+
+$font_title: 'Russo One', sans-serif;
+$font_subtitle: 'Pacifico', cursive;
+$font_normal: 'Aaargh';
+
+
+$color_green: #2ecc71;
+$color_black: #333333;
+$color_white: #ecf0f1;
+$color_test: #d35400;
+
+#achat {
+  height:160vh;
+  background:$color_black;
+  h2{
+    color:$color_white;
+    font-family: $font_normal;
+  }
+  hr {
+   border:solid 0.1vh $color_test;
+   width:20vh;
+   margin-top:-2vh;
+  }
+  h3 {
+    font-family: $font_normal;
+  }
+
+  #choix_carte h2{
+    color:$color_black;
+    margin-bottom:4vh;
+    margin-top:1vh;
+    }
+    #info_perso h2{
+      color:$color_black;
+      margin-bottom:4vh;
+      margin-top:1vh;
+      }
+  #choix_carte{
+    margin-top:3vh;
+    height:33vh;
+    width:100vh;
+    background:white;
+  }
+  #info_perso{
+    margin-top:3vh;
+    height:113vh;
+    width:100vh;
+    background:white;
+  }
+  #bouton_sub {
+      background: $color_black !important;
+      color:white !important;
+      font-size:1.5em;
+      width:15vh;
+      height:7vh;
+      border-radius:50px !important;
+      margin-top:2vh;
+    }
+  #info_perso input {
+    background:white;
+    width:96vh;
+    color: $color_test;
+    font-family: $font_normal;
+    border:solid 0.1vh $color_black;
+    border-radius:5px;
+    }
+  #choix_carte input {
+    margin-left:2vh;
+  }
+  img {
+    width:120px;
+    height:80px;
+  }
+  input:focus {
+    outline:none;
+  }
+    #bouton_sub:hover{
+    background:$color_test !important;
+    border:none;
+    color:$color_black !important;
+    }
+}

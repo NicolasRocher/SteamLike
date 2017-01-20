@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+$font_title: 'Russo One', sans-serif;
+$font_subtitle: 'Pacifico', cursive;
+$font_text: 'Open Sans', sans-serif;
+
+$colorb : #333333 ;
+$colorg: #2ecc71 ;
+
+body {
+  background: url('../img/background.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#dashboard {
+  #profil {
+    background: rgba(51, 51, 51, 0.8);
+    .row {
+      margin-top: 25px;
+    }
+    #profil_title {
+      h2 {
+        margin-left: 1%;
+        color: white;
+        font-family: $font_title;
+        font-size: 250%;
+        span {
+          color: $colorg;
+        }
+      }
+    }
+    #profil_avatar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 100%;
+      }
+      p {
+        font-family: $font_text;
+        font-size: 120%;
+        color: white;
+      }
+    }
+    #profil_icon {
+      .profil_icon {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $colorg;
+        &:hover {
+          background: $colorb;
+          border: 2px solid $colorg;
+          i {
+            color: $colorg;
+          }
+        }
+        i {
+          color: white;
+          font-size: 300%;
+        }
+      }
+    }
+    #profil_jeux_title {
+      h3 {
+        margin-left: 1%;
+        font-family: $font_title;
+        font-size: 200%;
+        color: white;
+        span {
+          color: $colorg;
+        }
+      }
+    }
+    #profil_jeux {
+      height: 200px;
+      .profil_jeux_description {
+        color : white;
+        font-size: 1em;
+      }
+      .profil_jeux_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    #profil_jeux_amis_title {
+      hr {
+        margin-top: 5%;
+        border: 1px solid $colorg;
+      }
+      h3 {
+        margin-left: 1%;
+        color: white;
+        font-family: $font_title;
+        span {
+          color: $colorg;
+        }
+      }
+    }
+    #profil_jeux_amis {
+      img {
+        width: 70%;
+      }
+      p {
+        margin-top: 3%;
+        color: white;
+      }
+    }
+  }
+}
+
+#shop {
+  #shop_menu {
+    margin-top: 25px;
+    h2 {
+      color: white;
+      font-family: $font_title;
+      font-size: 250%;
+      span {
+        color: $colorg;
+      }
+    }
+    .btn-group {
+      margin-top: 20px;
+      button {
+        background: $colorb;
+        border: 1px solid $colorb;
+        &:hover {
+          i {
+            color: $colorg;
+          }
+        }
+        i {
+          color: white;
+        }
+      }
+    }
+  }
+  #shop_search {
+    margin-top: 25px;
+    #shop_categorie {
+      button {
+        font-family: $font_text;
+        background: $colorb;
+        color: white;
+        border: 1px solid $colorb;
+        &:hover {
+          color: $colorg;
+        }
+      }
+    }
+    #shop_search_nav {
+      input {
+        font-family: $font_text;
+        background: $colorb;
+        border: none;
+      }
+      button {
+        background: $colorb;
+        color: white;
+        border: none;
+        border-left: 1px solid white;
+        font-weight: bold;
+        &:hover {
+          color: $colorg;
+          border-left: 1px solid $colorg;
+        }
+      }
+    }
+  }
+  #shop_store {
+    .shop_store_position {
+      margin-top: 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .img_options {
+        display: flex;
+        flex-direction: column;
+        img {
+          width: 100%;
+        }
+        .btn-group {
+          margin-top: -20px;
+          margin-left: -15px;
+          button {
+            font-family: $font_text;
+            background: $colorb;
+            border: none;
+            color: white;
+            &:hover {
+              background: $colorg;
+            }
+          }
+          ul {
+            background: $colorb;
+            li {
+              a {
+                color: white;
+                &:hover {
+                  background: $colorg;
+                  color: $colorb;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #shop_footer_bar {
+    margin-top: 5%;
+    .footer_bar_position {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .btn-group {
+      button {
+        font-family: $font_text;
+        background: $colorb;
+        border: none;
+        color: white;
+        &:hover {
+          background: $colorg;
+        }
+      }
+    }
+  }
+}

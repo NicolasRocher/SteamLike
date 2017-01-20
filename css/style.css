@@ -1,0 +1,664 @@
+/* SOMMAIRE */
+/* Imports */
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Russo+One");
+@import url("https://fonts.googleapis.com/css?family=Hammersmith+One|Oswald");
+/* Class actives */
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Russo+One");
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Russo+One");
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Russo+One");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Russo+One");
+.active_connexion {
+  border: 1px solid #2ecc71;
+}
+
+/* 1 _ Section Accueil */
+#accueil {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/background_accueil.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#accueil #title_accueil h1 {
+  margin-top: 1%;
+  color: #ffffff;
+  font-size: 15vh;
+  font-family: "Russo One", sans-serif;
+}
+
+#accueil #title_accueil h2 {
+  margin-top: -2vh;
+  color: #2ecc71;
+  font-size: 7vh;
+  font-family: "Pacifico", cursive;
+}
+
+#accueil #button_accueil {
+  margin-top: 50vh;
+}
+
+#accueil #button_accueil button {
+  padding: 0.5% 1% 0.5% 1%;
+  background: #333333;
+  font-family: "Russo One", sans-serif;
+  font-size: 2vh;
+  color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 3%;
+}
+
+#accueil #button_accueil button:hover {
+  background: #2ecc71;
+  color: #333333;
+}
+
+#accueil #button_accueil #button_accueil_inscription:hover {
+  background: #e67e22 !important;
+}
+
+/* 2 _ Modal connexion */
+#modal_connexion {
+  top: 15%;
+  color: white;
+}
+
+#modal_connexion .modal-content {
+  border: none;
+}
+
+#modal_connexion .modal-header {
+  background: #333333;
+  border-bottom: none;
+}
+
+#modal_connexion .modal-header h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
+
+#modal_connexion .modal-header button {
+  color: #2ecc71;
+}
+
+#modal_connexion .modal-body {
+  background: #333333;
+}
+
+#modal_connexion .modal-body .icon {
+  background: #2ecc71;
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal_connexion .modal-body .icon i {
+  font-size: 3vh;
+  color: #ffffff;
+}
+
+#modal_connexion .modal-body input {
+  font-family: "Hammersmith One", sans-serif;
+  width: 100%;
+  height: 65px;
+  margin-bottom: 5%;
+  color: #333333;
+  padding-left: 5%;
+  font-size: 18px;
+}
+
+#modal_connexion .modal-body .connexion input {
+  font-family: "Oswald", sans-serif;
+  width: 100%;
+  height: 65px;
+  background: #2ecc71;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#modal_connexion .modal-body .phrase {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#modal_connexion .modal-body .p1 {
+  color: grey;
+}
+
+#modal_connexion .modal-body .p2 {
+  color: #2ecc71;
+}
+
+/* 3 _ Modal inscription */
+#modal_inscription {
+  top: 15%;
+  color: white;
+}
+
+#modal_inscription .modal-content {
+  border: none;
+}
+
+#modal_inscription .modal-header {
+  background: #333333;
+  border-bottom: none;
+}
+
+#modal_inscription .modal-header h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
+
+#modal_inscription .modal-header button {
+  color: #e67e22;
+}
+
+#modal_inscription .modal-body {
+  background: #333333;
+}
+
+#modal_inscription .modal-body .icon {
+  background: #e67e22;
+  width: 140%;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal_inscription .modal-body .icon i {
+  font-size: 2vh;
+  color: #ffffff;
+}
+
+#modal_inscription .modal-body input {
+  width: 100%;
+  height: 65px;
+  color: black;
+  padding-left: 5%;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 18px;
+}
+
+#modal_inscription .modal-body #input_top {
+  margin-top: 2%;
+}
+
+#modal_inscription .modal-body #input_mid {
+  margin-top: 3%;
+}
+
+#modal_inscription .modal-body #input_mid input {
+  padding-left: 3%;
+}
+
+#modal_inscription .modal-body #input_bot {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#modal_inscription .modal-body #inscrire input {
+  font-family: "Oswald", sans-serif;
+  width: 100%;
+  height: 65px;
+  background: #e67e22;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#modal_inscription .modal-body .phrase {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#modal_inscription .modal-body .phrase .p1 {
+  color: grey;
+}
+
+#modal_inscription .modal-body .phrase .p2 {
+  color: #e67e22;
+}
+
+#formulaire_inscription {
+  margin-top: 25vh;
+  background: #333333;
+  font-family: "Aaargh";
+}
+
+#formulaire_inscription #off button {
+  background: #2ecc71;
+  opacity: 0.3;
+  color: white;
+  font-size: 1.5em;
+  margin-left: 29vh;
+  width: 25vh;
+  height: 9vh;
+  border: none;
+  margin-top: 4vh;
+}
+
+#formulaire_inscription #on button {
+  background: #2ecc71;
+  color: #ecf0f1;
+  font-size: 1.5em;
+  margin-right: 29vh;
+  width: 25vh;
+  height: 9vh;
+  border: none;
+  margin-top: 4vh;
+}
+
+#formulaire_inscription input {
+  color: #ecf0f1;
+  background: #d35400;
+  margin: 1vh;
+  font-size: 0.5em;
+  width: 40vh;
+  border: solid 1px #333333;
+  padding: 1vh;
+  font-family: "Aaargh";
+}
+
+#formulaire_inscription input:focus {
+  outline-color: #2ecc71;
+}
+
+#formulaire_inscription form {
+  margin-bottom: 5vh;
+}
+
+#formulaire_inscription h2 {
+  color: #ecf0f1;
+}
+
+#formulaire_connexion {
+  margin-top: 25vh;
+  background: #333333;
+  font-family: "Aaargh";
+}
+
+#formulaire_connexion #off button {
+  background: #2ecc71;
+  opacity: 0.3;
+  color: white;
+  font-size: 1.5em;
+  margin-right: 29vh;
+  width: 25vh;
+  height: 9vh;
+  border: none;
+  margin-top: 4vh;
+}
+
+#formulaire_connexion #on button {
+  background: #2ecc71;
+  color: #ecf0f1;
+  font-size: 1.5em;
+  margin-left: 29vh;
+  width: 25vh;
+  height: 9vh;
+  border: none;
+  margin-top: 4vh;
+}
+
+#formulaire_connexion input {
+  color: #ecf0f1;
+  background: #d35400;
+  margin: 1vh;
+  font-size: 0.5em;
+  text-align: center;
+  border: solid 1px #333333;
+  padding: 2vh;
+  font-family: "Aaargh";
+}
+
+#formulaire_connexion input:focus {
+  outline-color: #2ecc71;
+}
+
+#formulaire_connexion form {
+  margin-bottom: 5vh;
+}
+
+#formulaire_connexion h2 {
+  color: #ecf0f1;
+}
+
+body {
+  background: url("../img/background.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#dashboard #profil {
+  background: rgba(51, 51, 51, 0.8);
+}
+
+#dashboard #profil .row {
+  margin-top: 25px;
+}
+
+#dashboard #profil #profil_title h2 {
+  margin-left: 1%;
+  color: white;
+  font-family: "Russo One", sans-serif;
+  font-size: 250%;
+}
+
+#dashboard #profil #profil_title h2 span {
+  color: #2ecc71;
+}
+
+#dashboard #profil #profil_avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dashboard #profil #profil_avatar img {
+  width: 100%;
+}
+
+#dashboard #profil #profil_avatar p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 120%;
+  color: white;
+}
+
+#dashboard #profil #profil_icon .profil_icon {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2ecc71;
+}
+
+#dashboard #profil #profil_icon .profil_icon:hover {
+  background: #333333;
+  border: 2px solid #2ecc71;
+}
+
+#dashboard #profil #profil_icon .profil_icon:hover i {
+  color: #2ecc71;
+}
+
+#dashboard #profil #profil_icon .profil_icon i {
+  color: white;
+  font-size: 300%;
+}
+
+#dashboard #profil #profil_jeux_title h3 {
+  margin-left: 1%;
+  font-family: "Russo One", sans-serif;
+  font-size: 200%;
+  color: white;
+}
+
+#dashboard #profil #profil_jeux_title h3 span {
+  color: #2ecc71;
+}
+
+#dashboard #profil #profil_jeux {
+  height: 200px;
+}
+
+#dashboard #profil #profil_jeux .profil_jeux_description {
+  color: white;
+  font-size: 1em;
+}
+
+#dashboard #profil #profil_jeux .profil_jeux_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dashboard #profil #profil_jeux .profil_jeux_img img {
+  width: 100%;
+}
+
+#dashboard #profil #profil_jeux_amis_title hr {
+  margin-top: 5%;
+  border: 1px solid #2ecc71;
+}
+
+#dashboard #profil #profil_jeux_amis_title h3 {
+  margin-left: 1%;
+  color: white;
+  font-family: "Russo One", sans-serif;
+}
+
+#dashboard #profil #profil_jeux_amis_title h3 span {
+  color: #2ecc71;
+}
+
+#dashboard #profil #profil_jeux_amis img {
+  width: 70%;
+}
+
+#dashboard #profil #profil_jeux_amis p {
+  margin-top: 3%;
+  color: white;
+}
+
+#shop #shop_menu {
+  margin-top: 25px;
+}
+
+#shop #shop_menu h2 {
+  color: white;
+  font-family: "Russo One", sans-serif;
+  font-size: 250%;
+}
+
+#shop #shop_menu h2 span {
+  color: #2ecc71;
+}
+
+#shop #shop_menu .btn-group {
+  margin-top: 20px;
+}
+
+#shop #shop_menu .btn-group button {
+  background: #333333;
+  border: 1px solid #333333;
+}
+
+#shop #shop_menu .btn-group button:hover i {
+  color: #2ecc71;
+}
+
+#shop #shop_menu .btn-group button i {
+  color: white;
+}
+
+#shop #shop_search {
+  margin-top: 25px;
+}
+
+#shop #shop_search #shop_categorie button {
+  font-family: "Open Sans", sans-serif;
+  background: #333333;
+  color: white;
+  border: 1px solid #333333;
+}
+
+#shop #shop_search #shop_categorie button:hover {
+  color: #2ecc71;
+}
+
+#shop #shop_search #shop_search_nav input {
+  font-family: "Open Sans", sans-serif;
+  background: #333333;
+  border: none;
+}
+
+#shop #shop_search #shop_search_nav button {
+  background: #333333;
+  color: white;
+  border: none;
+  border-left: 1px solid white;
+  font-weight: bold;
+}
+
+#shop #shop_search #shop_search_nav button:hover {
+  color: #2ecc71;
+  border-left: 1px solid #2ecc71;
+}
+
+#shop #shop_store .shop_store_position {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#shop #shop_store .shop_store_position .img_options {
+  display: flex;
+  flex-direction: column;
+}
+
+#shop #shop_store .shop_store_position .img_options img {
+  width: 100%;
+}
+
+#shop #shop_store .shop_store_position .img_options .btn-group {
+  margin-top: -20px;
+  margin-left: -15px;
+}
+
+#shop #shop_store .shop_store_position .img_options .btn-group button {
+  font-family: "Open Sans", sans-serif;
+  background: #333333;
+  border: none;
+  color: white;
+}
+
+#shop #shop_store .shop_store_position .img_options .btn-group button:hover {
+  background: #2ecc71;
+}
+
+#shop #shop_store .shop_store_position .img_options .btn-group ul {
+  background: #333333;
+}
+
+#shop #shop_store .shop_store_position .img_options .btn-group ul li a {
+  color: white;
+}
+
+#shop #shop_store .shop_store_position .img_options .btn-group ul li a:hover {
+  background: #2ecc71;
+  color: #333333;
+}
+
+#shop #shop_footer_bar {
+  margin-top: 5%;
+}
+
+#shop #shop_footer_bar .footer_bar_position {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#shop #shop_footer_bar .btn-group button {
+  font-family: "Open Sans", sans-serif;
+  background: #333333;
+  border: none;
+  color: white;
+}
+
+#shop #shop_footer_bar .btn-group button:hover {
+  background: #2ecc71;
+}
+
+#achat {
+  height: 160vh;
+  background: #333333;
+}
+
+#achat h2 {
+  color: #ecf0f1;
+  font-family: "Aaargh";
+}
+
+#achat hr {
+  border: solid 0.1vh #d35400;
+  width: 20vh;
+  margin-top: -2vh;
+}
+
+#achat h3 {
+  font-family: "Aaargh";
+}
+
+#achat #choix_carte h2 {
+  color: #333333;
+  margin-bottom: 4vh;
+  margin-top: 1vh;
+}
+
+#achat #info_perso h2 {
+  color: #333333;
+  margin-bottom: 4vh;
+  margin-top: 1vh;
+}
+
+#achat #choix_carte {
+  margin-top: 3vh;
+  height: 33vh;
+  width: 100vh;
+  background: white;
+}
+
+#achat #info_perso {
+  margin-top: 3vh;
+  height: 113vh;
+  width: 100vh;
+  background: white;
+}
+
+#achat #bouton_sub {
+  background: #333333 !important;
+  color: white !important;
+  font-size: 1.5em;
+  width: 15vh;
+  height: 7vh;
+  border-radius: 50px !important;
+  margin-top: 2vh;
+}
+
+#achat #info_perso input {
+  background: white;
+  width: 96vh;
+  color: #d35400;
+  font-family: "Aaargh";
+  border: solid 0.1vh #333333;
+  border-radius: 5px;
+}
+
+#achat #choix_carte input {
+  margin-left: 2vh;
+}
+
+#achat img {
+  width: 120px;
+  height: 80px;
+}
+
+#achat input:focus {
+  outline: none;
+}
+
+#achat #bouton_sub:hover {
+  background: #d35400 !important;
+  border: none;
+  color: #333333 !important;
+}

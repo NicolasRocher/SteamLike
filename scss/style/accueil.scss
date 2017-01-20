@@ -1,0 +1,215 @@
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Oswald');
+
+$font_title: 'Russo One', sans-serif;
+$font_subtitle: 'Pacifico', cursive;
+$font_modal: 'Oswald', sans-serif;
+$font_modal_2: 'Hammersmith One', sans-serif;
+
+$color_green: #2ecc71;
+$color_black: #333333;
+$color_inscription: #e67e22;
+$color_background_modal: #333333;
+
+/* Class actives */
+
+.active_connexion {
+  border: 1px solid #2ecc71;
+}
+
+/* 1 _ Section Accueil */
+
+#accueil {
+  width: 100%;
+  height: 100vh;
+  background: url('../img/background_accueil.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  #title_accueil {
+    h1 {
+      margin-top: 1%;
+      color: #ffffff;
+      font-size: 15vh;
+      font-family: $font_title;
+    }
+    h2 {
+      margin-top: -2vh;
+      color: $color_green;
+      font-size: 7vh;
+      font-family: $font_subtitle;
+    }
+  }
+  #button_accueil {
+    margin-top: 50vh;
+    button {
+      padding: 0.5% 1% 0.5% 1%;
+      background: $color_black;
+      font-family: $font_title;
+      font-size: 2vh;
+      color: #ffffff;
+      border: 1px solid transparent;
+      border-radius: 3%;
+      &:hover {
+        background: $color_green;
+        color: $color_black;
+      }
+    }
+    #button_accueil_inscription {
+      &:hover {
+        background: $color_inscription!important;
+      }
+    }
+  }
+}
+
+/* 2 _ Modal connexion */
+
+#modal_connexion {
+  top: 15%;
+  color: white;
+  .modal-content {
+    border: none;
+  }
+  .modal-header {
+    background: $color_background_modal;
+    border-bottom: none;
+    h4 {
+      font-family: $font_modal;
+      font-size: 40px;
+    }
+    button {
+      color: $color_green;
+    }
+  }
+  .modal-body {
+    background: $color_background_modal;
+    .icon {
+      background: $color_green;
+      width: 100%;
+      height: 65px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      i {
+        font-size: 3vh;
+        color: #ffffff;
+      }
+    }
+    input {
+      font-family: $font_modal_2;
+      width: 100%;
+      height: 65px;
+      margin-bottom: 5%;
+      color: $color_black;
+      padding-left: 5%;
+      font-size: 18px;
+    }
+    .connexion {
+      input {
+        font-family: $font_modal;
+        width: 100%;
+        height: 65px;
+        background: $color_green;
+        color: #ffffff;
+        border: none;
+        font-weight: bold;
+        font-size: 25px;
+      }
+    }
+    .phrase {
+      margin-top: 5%;
+      display: flex;
+      justify-content: space-between;
+    }
+    p {
+
+    }
+    .p1 {
+      color: grey;
+    }
+    .p2 {
+      color: $color_green;
+    }
+  }
+}
+
+/* 3 _ Modal inscription */
+#modal_inscription {
+  top: 15%;
+  color: white;
+  .modal-content {
+    border: none;
+  }
+  .modal-header {
+    background: $color_background_modal;
+    border-bottom: none;
+    h4 {
+      font-family: $font_modal;
+      font-size: 40px;
+    }
+    button {
+      color: $color_inscription;
+    }
+  }
+  .modal-body {
+    background: $color_background_modal;
+    .icon {
+      background: $color_inscription;
+      width: 140%;
+      height: 65px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      i {
+        font-size: 2vh;
+        color: #ffffff;
+      }
+    }
+    input {
+      width: 100%;
+      height: 65px;
+      color: black;
+      padding-left: 5%;
+      font-family: $font_modal_2;
+      font-size: 18px;
+    }
+    #input_top {
+      margin-top: 2%;
+    }
+    #input_mid {
+      margin-top: 3%;
+      input {
+        padding-left: 3%;
+      }
+    }
+    #input_bot {
+      margin-top: 3%;
+      margin-bottom: 3%;
+    }
+    #inscrire {
+      input {
+        font-family: $font_modal;
+        width: 100%;
+        height: 65px;
+        background: $color_inscription;
+        color: #ffffff;
+        border: none;
+        font-weight: bold;
+        font-size: 25px;
+      }
+    }
+    .phrase {
+      margin-top: 5%;
+      display: flex;
+      justify-content: space-between;
+      .p1 {
+        color: grey;
+      }
+      .p2 {
+        color: $color_inscription;
+      }
+    }
+  }
+}
